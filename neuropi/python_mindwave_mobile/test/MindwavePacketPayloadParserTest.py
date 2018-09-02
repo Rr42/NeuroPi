@@ -1,6 +1,6 @@
 import unittest
-from MindwavePacketPayloadParser import MindwavePacketPayloadParser
-from MindwaveDataPoints import RawDataPoint, PoorSignalLevelDataPoint,\
+from neuropi.python_mindwave_mobile.MindwavePacketPayloadParser import MindwavePacketPayloadParser
+from neuropi.python_mindwave_mobile.MindwaveDataPoints import RawDataPoint, PoorSignalLevelDataPoint,\
     MeditationDataPoint, AttentionDataPoint, EEGPowersDataPoint, BlinkDataPoint
 
 

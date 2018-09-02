@@ -17,7 +17,7 @@ class MindwaveMobileRawReader:
                 self.mindwaveMobileSocket.connect((mindwaveMobileAddress, 1))
                 return;
             except bluetooth.btcommon.BluetoothError as error:
-                print "Could not connect: ", error, "; Retrying in 5s..."
+                print ("Could not connect: ", error, "; Retrying in 5s...")
                 time.sleep(5) 
     
     def _readMoreBytesIntoBuffer(self, amountOfBytes):

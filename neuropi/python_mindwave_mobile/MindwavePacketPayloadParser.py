@@ -1,4 +1,4 @@
-from MindwaveDataPoints import RawDataPoint, PoorSignalLevelDataPoint,\
+from neuropi.python_mindwave_mobile.MindwaveDataPoints import RawDataPoint, PoorSignalLevelDataPoint,\
     AttentionDataPoint, MeditationDataPoint, BlinkDataPoint, EEGPowersDataPoint
 
 EXTENDED_CODE_BYTE = 0x55

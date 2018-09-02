@@ -1,6 +1,6 @@
 import threading
-from python_mindwave_mobile.MindwaveDataPointReader import MindwaveDataPointReader
-from python_mindwave_mobile.MindwaveDataPoints import *
+from neuropi.python_mindwave_mobile.MindwaveDataPointReader import MindwaveDataPointReader
+from neuropi.python_mindwave_mobile.MindwaveDataPoints import *
 
 class GetData( threading.Thread ):
 

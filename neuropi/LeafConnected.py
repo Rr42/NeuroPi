@@ -1,5 +1,5 @@
 import random, os, pygame, threading
-from python_mindwave_mobile.MindwaveDataPointReader import MindwaveDataPointReader
+from neuropi.python_mindwave_mobile.MindwaveDataPointReader import MindwaveDataPointReader
 from pygame.locals import *
 from datathread import GetData
 from objects import Item
